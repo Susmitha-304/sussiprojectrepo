@@ -1,0 +1,12 @@
+def square_and_reverse(num):
+    square = num * num
+    reverse = int(str(square)[::-1])
+    return reverse
+
+# Taking input from user
+num = int(input("Enter a number: "))
+
+# Function call
+result = square_and_reverse(num)
+
+print("Output:", result)
