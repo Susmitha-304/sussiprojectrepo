@@ -17,7 +17,11 @@ def ispalindrome(num):
     return num==reverse(num)
 
 print(reverse(123))
+<<<<<<< HEAD
 print(ispalindrome(1235))
+=======
+print(ispalindrome(1234))
+>>>>>>> 105dbd1ad10ee4857bc54a538ccf4dd3905aa1af
 
 print(reverse(121))
 print(ispalindrome(121))
