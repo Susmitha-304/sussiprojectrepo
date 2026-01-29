@@ -22,6 +22,16 @@ print(ispalindrome(123))
 print(reverse(121))
 print(ispalindrome(121))
 
+def getpalindromes(start,end):
+    res=""
+    for i in range(1,end+1):
+        if ispalindrome(i):
+            res=res+str(i)+","
+    return res
+
+print(getpalindromes(1,10000))
+        
+
 
 
     
